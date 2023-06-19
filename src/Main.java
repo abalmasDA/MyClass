@@ -5,8 +5,7 @@
 
 public class Main {
     public static void main(String[] args) {
-//        String someString = MyClass<String>.FactoryMethod();
-
+        MyClass<Integer> myClass = MyClass.factoryMethod();
 
     }
 }
