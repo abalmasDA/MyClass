@@ -1,8 +1,11 @@
-public class MyClass<T> {
+import java.util.ArrayList;
+import java.util.List;
 
-    public static <T> T factoryMethod() {
+public class MyClass {
 
-        return (T) new MyClass<T>();
+    public static <T> List<T> factoryMethod() {
+
+        return new ArrayList<>();
 
     }
 
